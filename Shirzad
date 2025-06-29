@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #E0C3FC 0%, #8EC5FC 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #5f2eea;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 25px;
+  background: #5f2eea;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #3c1774;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+#inspiration {
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 500px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #222;
+  margin: 0;
+}
+
+#services {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5f2eea;
+  margin-bottom: 1rem;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#services li::before {
+  content: "🛠️ ";
+  margin-right: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  color: #555;
+  font-size: 1rem;
+}
